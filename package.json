@@ -1,0 +1,26 @@
+{
+  "name": "agile-engine-back",
+  "version": "1.0.0",
+  "description": "Agile Engine Challenge (Backend)",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm install && node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kv310/agile-engine-back.git"
+  },
+  "author": "fr0n",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kv310/agile-engine-back/issues"
+  },
+  "homepage": "https://github.com/kv310/agile-engine-back#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.5"
+  }
+}
